@@ -17,7 +17,7 @@ for k in range(0, len(listOfAbundantNumbers)):
 
 toplam = 0
 for o in range(1, limit):
-    if (sumOfAbundantNumbers.__contains__(o)) == False:
+    if not (sumOfAbundantNumbers.__contains__(o)):
         toplam += o
 
 print(toplam)

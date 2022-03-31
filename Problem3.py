@@ -89,4 +89,3 @@ while location < 1000:
         largestPrime = first1000PrimeList[location]
     location += 1
 print(largestPrime)
-

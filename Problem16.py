@@ -2,8 +2,4 @@
 # What is the sum of the digits of the number 21000?
 import Metotlar
 
-
-Metotlar.sumOfDigits(num = pow(2, 1000))
-
-
-
+Metotlar.sumOfDigits(num=pow(2, 1000))

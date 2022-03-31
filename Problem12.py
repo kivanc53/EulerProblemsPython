@@ -11,7 +11,7 @@ def factors(n):
 
 
 sum = 0
-for i in range(1,80000000):
+for i in range(1, 80000000):
     sum += i
     if factors(sum) > 500:
         print(sum)

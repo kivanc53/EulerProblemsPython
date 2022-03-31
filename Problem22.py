@@ -3,7 +3,7 @@ laptop = "C:\\Users\\atmaca53\\OneDrive\\Euler Problemleri\\p022_names.txt"
 ev = "C:\\Users\\MSI\\OneDrive\\Euler Problemleri\\p022_names.txt"
 
 #dosya okundu
-f = open(ev, "r") #r reading anlamındadır.
+f = open(ev, "r")  #r reading anlamındadır.
 if f.mode == 'r':
     contents = f.read()
 
@@ -19,6 +19,3 @@ for i in range(liste.__len__()):
     sum = 0
 
 print(largest)
-
-
-
